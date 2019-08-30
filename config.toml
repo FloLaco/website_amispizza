@@ -1,6 +1,6 @@
 baseURL = "https://amispizza.flolaco.ovh/"
 languageCode = "en-us"
-title = "Restaurant Theme By Themefisher"
+title = "Pizzeria Amis Pizza AMP"
 theme="restaurant"
 summaryLength = "7"
 
@@ -10,22 +10,22 @@ summaryLength = "7"
 [menu]
 	
 	[[menu.nav]]
-    name = "Home"
+    name = "Accueil"
     URL = "hero-area"
     weight = 1
 
     [[menu.nav]]
-    name = "About Us"
+    name = "A propos de nous"
     URL = "about-us"
     weight = 2
 
-    [[menu.nav]]
-    name = "Blog"
-    URL = "blog"
-    weight = 3
+    #[[menu.nav]]
+    #name = "Blog"
+    #URL = "blog"
+    #weight = 3
 
     [[menu.nav]]
-    name = "Price"
+    name = "Tarifs"
     URL = "price"
     weight = 4
 
@@ -35,7 +35,7 @@ summaryLength = "7"
     weight = 5
 
     [[menu.nav]]
-    name = "Contact Us"
+    name = "Contactez-nous"
     URL = "contact-us"
     weight = 6
 
@@ -93,14 +93,14 @@ description= "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ei
 
 [params.foodMenu]
 enable = true
-title = "Our Easy <span>PRICE</span>"
-description= " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco"
-subtitle = "FEATURED ON THE WEEK"
+title = "Nos <span>Tarifs</span>"
+description= " Toutes nos pizzas sont agrémentées d'olives et de marjolaine. Tout supplément +1€"
+#subtitle = "FEATURED ON THE WEEK"
 
 [[params.foodMenu.item]]
-title="Pancakes n' Such Titas"
-description= "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-price = "$ 125.00"
+title="Marguerite"
+description= "Emmental Français"
+price = "9 €"
 
 [[params.foodMenu.item]]
 title="Caesar Salad"
@@ -108,9 +108,9 @@ description= "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ei
 price = "$ 100.00"
 
 [[params.foodMenu.item]]
-title="Steak with a Garlic and Parsley Risotto"
-description= "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-price = "$ 20.00"
+title="Romaine"
+description= "Jambon, Emmental Français"
+price = "10 €"
 
 [[params.foodMenu.item]]
 title="Meat of Skewers"
