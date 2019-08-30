@@ -1,4 +1,4 @@
-baseURL = "http://amispizza.flolaco.ovh/"
+baseURL = "https://amispizza.flolaco.ovh/"
 languageCode = "en-us"
 title = "Restaurant Theme By Themefisher"
 theme="restaurant"
